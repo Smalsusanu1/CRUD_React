@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "crudoperations-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudoperations/CrudoperationsWebPart.js",
+          "manifest": "./src/webparts/crudoperations/CrudoperationsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CrudoperationsWebPartStrings": "lib/webparts/crudoperations/loc/{locale}.js"
+  }
+}
